@@ -14,4 +14,7 @@ grant create table to JAILTON with admin option;
 grant create tablespace to JAILTON with admin option;
 grant create sequence to jailton with admin option;
 grant create procedure to jailton with admin option;
+grant create view to jailton with admin option;
+grant create trigger to jailton with admin option;
+
 GRANT UNLIMITED TABLESPACE TO JAILTON WITH ADMIN OPTION;

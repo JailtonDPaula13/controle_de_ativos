@@ -5,6 +5,7 @@ create table tb_colaboradores
 	nome varchar2(40) not null,
 	sexo char(1) not null,
 	cpf varchar(11) not null,
+	nascido date,
 	id_setor int
 );
 
