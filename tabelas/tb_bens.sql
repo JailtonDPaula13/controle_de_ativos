@@ -21,3 +21,4 @@ alter table tb_bens add constraint pk_bens primary key(id_produto);
 alter table tb_bens add constraint ck_estado_tb_bens check(estado in('N','B','D','I'));
 alter table tb_bens add constraint fk_usuario_tb_bens foreign key(usuario) references tb_colaboradores(id_colaborador);
 alter table tb_bens add constraint fk_setor_tb_bens foreign key(id_setor) references tb_setor(id_setor);
+alter table tb_bens add constraint uq_tb_bens unique(sn);	
